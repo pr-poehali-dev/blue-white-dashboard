@@ -94,7 +94,7 @@ function TopicCard({ topic, period, onForecast }: TopicCardProps) {
         </div>
         <div>
           <p className="text-2xl font-bold text-red-500">{data.overdue.toLocaleString('ru')}</p>
-          <p className="text-xs text-muted-foreground">просрочено</p>
+          <p className="text-xs text-muted-foreground">прогноз</p>
         </div>
       </div>
 
